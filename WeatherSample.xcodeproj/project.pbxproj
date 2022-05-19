@@ -13,6 +13,7 @@
 		050B681F283699A1005C5C47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050B680D2836999E005C5C47 /* ContentView.swift */; };
 		050B6820283699A1005C5C47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 050B680E283699A0005C5C47 /* Assets.xcassets */; };
 		050B6821283699A1005C5C47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 050B680E283699A0005C5C47 /* Assets.xcassets */; };
+		050B682E2836B21F005C5C47 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050B682D2836B21F005C5C47 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		050B6813283699A1005C5C47 /* WeatherSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		050B6819283699A1005C5C47 /* WeatherSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		050B681B283699A1005C5C47 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		050B682D2836B21F005C5C47 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				050B680C2836999E005C5C47 /* WeatherSampleApp.swift */,
 				050B680D2836999E005C5C47 /* ContentView.swift */,
+				050B682D2836B21F005C5C47 /* SettingsView.swift */,
 				050B680E283699A0005C5C47 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -185,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				050B682E2836B21F005C5C47 /* SettingsView.swift in Sources */,
 				050B681F283699A1005C5C47 /* ContentView.swift in Sources */,
 				050B681D283699A1005C5C47 /* WeatherSampleApp.swift in Sources */,
 			);

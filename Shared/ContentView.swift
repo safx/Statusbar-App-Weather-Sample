@@ -1,9 +1,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    private func icon(_ name: String) -> some View {
+        Image(systemName: name)
+            .font(.largeTitle)
+            .symbolRenderingMode(.multicolor)
+    }
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        HStack {
+            Spacer()
+            icon("cloud.sun.rain.fill")
+            Spacer()
+            icon("cloud.sun.fill")
+            Spacer()
+            icon("sun.max.fill")
+            Spacer()
+        }
+        .padding()
     }
 }
 
